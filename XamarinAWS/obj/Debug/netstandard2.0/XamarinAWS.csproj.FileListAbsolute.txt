@@ -1,0 +1,6 @@
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\bin\Debug\netstandard2.0\XamarinAWS.deps.json
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\bin\Debug\netstandard2.0\XamarinAWS.dll
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\obj\Debug\netstandard2.0\XamarinAWS.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\obj\Debug\netstandard2.0\XamarinAWS.csproj.CoreCompileInputs.cache
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\obj\Debug\netstandard2.0\XamarinAWS.AssemblyInfoInputs.cache
+C:\Users\Phillip\Source\Repos\XamarinAWS\XamarinAWS\obj\Debug\netstandard2.0\XamarinAWS.AssemblyInfo.cs

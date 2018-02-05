@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "2e4c06942cea56cf873228e79a957e26cc8f8b24"
+    "signature": "86e61730bc8601cd430afeb957f04b7d1187e18e"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
         "dependencies": {
           "AWSSDK.CognitoIdentity": "3.3.2.17",
           "AWSSDK.Core": "3.3.21.9",
-          "NETStandard.Library": "2.0.0"
+          "NETStandard.Library": "2.0.0",
+          "PCLCrypto": "2.0.147"
         },
         "runtime": {
           "XamarinAWS.dll": {}
@@ -74,6 +75,20 @@
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PCLCrypto/2.0.147": {
+        "dependencies": {
+          "PInvoke.NCrypt": "0.3.2",
+          "Validation": "2.2.8"
+        },
+        "runtime": {
+          "lib/net45/PCLCrypto.dll": {}
+        }
+      },
+      "PInvoke.NCrypt/0.3.2": {
+        "runtime": {
+          "lib/net40/PInvoke.NCrypt.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -608,6 +623,11 @@
         "runtime": {
           "lib/netstandard1.3/System.Threading.Thread.dll": {}
         }
+      },
+      "Validation/2.2.8": {
+        "runtime": {
+          "lib/dotnet/Validation.dll": {}
+        }
       }
     }
   },
@@ -665,6 +685,20 @@
       "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "PCLCrypto/2.0.147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFNDBjhP+qPukqB8PiGbWDo70gHsEzSKupL47JisjYFQaGwlPPCnN8ah59QCzIvsg9IUr2AecGKXF3ONpyFL9g==",
+      "path": "pclcrypto/2.0.147",
+      "hashPath": "pclcrypto.2.0.147.nupkg.sha512"
+    },
+    "PInvoke.NCrypt/0.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s7SIBXlr3qolZaM5mGEXG2sKBY4yFVHTWBlwhRC93le08Aj+n/IaFVnB9LBFv6mpCCivXdzad+9EX6HHds4PyQ==",
+      "path": "pinvoke.ncrypt/0.3.2",
+      "hashPath": "pinvoke.ncrypt.0.3.2.nupkg.sha512"
     },
     "runtime.native.System/4.0.0": {
       "type": "package",
@@ -987,6 +1021,13 @@
       "sha512": "sha512-gIdJqDXlOr5W9zeqFErLw3dsOsiShSCYtF9SEHitACycmvNvY8odf9kiKvp6V7aibc8C4HzzNBkWXjyfn7plbQ==",
       "path": "system.threading.thread/4.0.0",
       "hashPath": "system.threading.thread.4.0.0.nupkg.sha512"
+    },
+    "Validation/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMNc7JhPlgRwnR+NNb+ldoluObL+RBw96aMoiZae/Looa4vgaAnIysmle/bV2OKqDNW9oUBDckPyfa2+sX6JdA==",
+      "path": "validation/2.2.8",
+      "hashPath": "validation.2.2.8.nupkg.sha512"
     }
   }
 }

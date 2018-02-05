@@ -141,7 +141,7 @@ namespace XamarinAWS
             var dateStamp = currentDateTime.ToString("yyyMMdd");
             var requestDate = currentDateTime.ToString("yyyyMMddTHHmmssZ");
 
-            var credentialsScope = string.Format("{0}/{1}/{2}/aws4_request", dateStamp, ServiceRegion, ServiceName);
+            var credentialsScope = string.Format("{0}/{1}/{2}/aws4_request", dateStamp, ServiceRegion.ToString(), ServiceName);
 
             var headers = new SortedDictionary<string, string>
             {
@@ -161,7 +161,7 @@ namespace XamarinAWS
             string stringToSign = Algorithm + "\n" + requestDate + "\n" + credentialsScope + "\n" + hashedCanonicalRequest;
 
             // Task 3: Calculate the AWS Signature Version 4
-            byte[] signingKey = GetSignatureKey(credentialsImmutable.SecretKey, dateStamp, ServiceRegion, ServiceName);
+            byte[] signingKey = GetSignatureKey(credentialsImmutable.SecretKey, dateStamp, ServiceRegion.ToString(), ServiceName);
             string signature = HexEncode(HmacSha256(stringToSign, signingKey));
 
             // Task 4: Prepare a signed request
